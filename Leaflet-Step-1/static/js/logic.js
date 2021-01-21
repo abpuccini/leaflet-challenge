@@ -1,3 +1,5 @@
+// Source: https://leafletjs.com/examples/choropleth/
+
 // Store our API endpoint inside queryUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
@@ -17,7 +19,6 @@ function getColor(d) {
                     d > 1 ? '#C1E7B8' :
                         '#ECEBEB';
 };
-
 
 function createFeatures(earthquakeData) {
 
