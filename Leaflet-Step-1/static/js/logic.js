@@ -84,7 +84,7 @@ function createMap(earthquakes) {
 
     myMap.setMaxBounds(bounds);
     myMap.on('drag', function () {
-        map.panInsideBounds(bounds, { animate: false });
+        myMap.panInsideBounds(bounds, { animate: false });
     });
 
     // Create legend of map
