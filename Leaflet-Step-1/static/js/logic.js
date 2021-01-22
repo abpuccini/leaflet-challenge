@@ -14,10 +14,10 @@ d3.json(queryUrl, function (data) {
 function getColor(d) {
     return d > 5 ? '#D02A2E' :
         d > 4 ? '#FEDAC6' :
-            d > 3 ? '#B3CFDA' :
-                d > 2 ? '#F8F29A' :
-                    d > 1 ? '#C1E7B8' :
-                        '#ECEBEB';
+            d > 3 ? '#F8F29A' :
+                d > 2 ? '#C1E7B8' :
+                    d > 1 ? '#C6D5D8' :
+                        '#EDE3D1';
 };
 
 function createFeatures(earthquakeData) {
@@ -70,25 +70,37 @@ function createMap(earthquakes) {
     // Create our map, giving it the streetmap and earthquakes layers to display on load
     var myMap = L.map("map", {
         center: [
-            20, 20
+            25, 20
         ],
         zoom: 2,
         layers: [lightmap, earthquakes]
     });
 
+    // Set bound to unable to drag to map over left or right
+    // https://stackoverflow.com/questions/22155017/can-i-prevent-panning-leaflet-map-out-of-the-worlds-edge/31529463#31529463
+    var southWest = L.latLng(-90, -180),
+        northEast = L.latLng(90, 180);
+    var bounds = L.latLngBounds(southWest, northEast);
+
+    myMap.setMaxBounds(bounds);
+    myMap.on('drag', function () {
+        map.panInsideBounds(bounds, { animate: false });
+    });
+
+    // Create legend of map
     var legend = L.control({ position: 'bottomright' });
 
     legend.onAdd = function (map) {
 
         var div = L.DomUtil.create('div', 'info legend'),
-            grades = [0, 1, 2, 3, 4, 5];
+            magnitude = [0, 1, 2, 3, 4, 5];
 
 
-        // loop through our density intervals and generate a label with a colored square for each interval
-        for (var i = 0; i < grades.length; i++) {
+        // loop through our magnitude intervals and generate a label with a colored square for each interval
+        for (var i = 0; i < magnitude.length; i++) {
             div.innerHTML +=
-                '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+                '<i style="background:' + getColor(magnitude[i] + 1) + '"></i> ' +
+                magnitude[i] + (magnitude[i + 1] ? '&ndash;' + magnitude[i + 1] + '<br>' : '+');
         }
 
         return div;
