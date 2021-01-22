@@ -13,7 +13,7 @@ d3.json(queryUrl, function (data) {
 
 function getColor(d) {
     return d > 5 ? '#D02A2E' :
-        d > 4 ? '#FEDAC6' :
+        d > 4 ? '#FCAE86' :
             d > 3 ? '#F8F29A' :
                 d > 2 ? '#C1E7B8' :
                     d > 1 ? '#C6D5D8' :
@@ -70,7 +70,7 @@ function createMap(earthquakes) {
     // Create our map, giving it the streetmap and earthquakes layers to display on load
     var myMap = L.map("map", {
         center: [
-            25, 20
+            25, 0
         ],
         zoom: 2,
         layers: [lightmap, earthquakes]
