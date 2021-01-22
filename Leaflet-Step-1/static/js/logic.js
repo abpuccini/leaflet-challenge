@@ -1,4 +1,4 @@
-// Source: https://leafletjs.com/examples/choropleth/
+// Source: https://leafletjs.com/examples/choropleth/ , https://leafletjs.com/examples/geojson/ , https://docs.mapbox.com/mapbox-gl-js/api/map/
 
 // Store our API endpoint inside queryUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
