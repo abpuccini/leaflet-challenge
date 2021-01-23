@@ -10,9 +10,9 @@ The United States Geological Survey, USGS, is interested in building a new set o
 
 - HTML
 
-## Level 1: Earthquake Visualization
+## Earthquake Visualization
 
-**Level-1 JS script** >> [Click Here](Leaflet-Step-1/static/js/logic.js)
+**View JS script** [Click Here](Leaflet-Step-1/static/js/logic.js)
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Retriving earthquake data in the past 7 days from USGS and using the Leaflet Javascript to create the visualization of the map based on the dataset.
 
@@ -26,9 +26,9 @@ The USGS provides earthquake data in a number of different formats, updated ever
   <img src="Images/leaflet_01.png">
 </p>
 
-## Level 2: Tectonic Plates and Seismic Activity
+## Tectonic Plates and Seismic Activity
 
-**Level-2 JS script** >> [Click Here](Leaflet-Step-2/static/js/logic.js)
+**View JS script** [Click Here](Leaflet-Step-2/static/js/logic.js)
 
 Ploting a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
 
@@ -45,3 +45,9 @@ Ploting a second data set on your map to illustrate the relationship between tec
 <p align="center">
   <img src="Images/leaflet_02.png">
 </p>
+
+## Contributor
+
+© [Atcharaporn B Puccini](https://www.linkedin.com/in/abpuccini/)
+
+:mailbox_with_no_mail: b.atcharaporn@gmail.com
