@@ -52,6 +52,6 @@ Ploting a second data set on your map to illustrate the relationship between tec
 
 <p><a href="https://github.com/abpuccini" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
 <a href="https://www.linkedin.com/in/thomas-guibert" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-<a href="#" target="_blank"><img alt="b.atcharaporn@gmail.com" src="https://img.shields.io/badge/Email-b.atcharaporn%40gmail.com-yellowgreen?style=for-the-badge"/></a>
+<a href="#" target="_blank"><img alt="b.atcharaporn@gmail.com" src="https://img.shields.io/badge/Email-b.atcharaporn%40gmail.com-yellowgreen?style=for-the-badge&logo=#EA4335"/></a>
 </p>
 
