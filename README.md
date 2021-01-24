@@ -48,4 +48,4 @@ Ploting a second data set on your map to illustrate the relationship between tec
 
 ## Contributor
 
-© [Atcharaporn B Puccini](https://www.linkedin.com/in/abpuccini/) :envelope: b.atcharaporn@gmail.com
+© Atcharaporn B Puccini [<i style="font-size:24px" class="fa">&#xf08c;</i>](https://www.linkedin.com/in/abpuccini/) :envelope: b.atcharaporn@gmail.com
