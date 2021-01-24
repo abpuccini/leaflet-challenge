@@ -50,7 +50,8 @@ Ploting a second data set on your map to illustrate the relationship between tec
 
 <a>© Atcharaporn B Puccini</a>
 
-<a href="https://www.linkedin.com/in/abpuccini/"> 
+<p><a href="https://www.linkedin.com/in/abpuccini/"> 
   <img alt="abpuccini's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a> </br>
+</a> More about me on LinkedIn</p>
+
 <a>:mailbox: b.atcharaporn@gmail.com</a>
