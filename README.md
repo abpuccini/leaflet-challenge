@@ -48,10 +48,7 @@ Ploting a second data set on your map to illustrate the relationship between tec
 
 ## Contributor
 
-<a>© Atcharaporn B Puccini</a>
-
-**Contact Info.**
-
-<a href="https://www.linkedin.com/in/abpuccini/">
+<a href="https://www.linkedin.com/in/abpuccini/">© Atcharaporn B Puccini
   <img alt="abpuccini's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a> 📫 b.atcharaporn@gmail.com
+</a> 
+<a>:mailbox: b.atcharaporn@gmail.com</a>
