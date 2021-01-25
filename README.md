@@ -59,9 +59,8 @@ Ploting a second data set on your map to illustrate the relationship between tec
 
 <a>© Atcharaporn B Puccini</a>
 
-<p>
-<a>:mailbox: b.atcharaporn@gmail.com</a>
-<a href="https://github.com/abpuccini" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
+<p><a href="https://github.com/abpuccini" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
 <a href="https://www.linkedin.com/in/thomas-guibert" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+<a href="mailto: b.atcharaporn@gmail.com" target="_blank"><img href="mailto: b.atcharaporn@gmail.com" alt="b.atcharaporn@gmail.com" src="https://img.shields.io/badge/Email-b.atcharaporn%40gmail.com-yellowgreen?style=for-the-badge&logo=Gmail"/></a>
 </p>
 
