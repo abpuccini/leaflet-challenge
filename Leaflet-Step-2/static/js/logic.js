@@ -116,7 +116,7 @@ function createMap(earthquakes, tectonic_plates) {
     };
 
     // Create our map, giving it the streetmap and earthquakes layers to display on load
-    var myMap = L.map("map", {
+    var myMapTwo = L.map("mapTwo", {
         center: [
             25, 0
         ],
@@ -130,9 +130,9 @@ function createMap(earthquakes, tectonic_plates) {
         northEast = L.latLng(90, 180);
     var bounds = L.latLngBounds(southWest, northEast);
 
-    myMap.setMaxBounds(bounds);
-    myMap.on('drag', function () {
-        myMap.panInsideBounds(bounds, { animate: false });
+    myMapTwo.setMaxBounds(bounds);
+    myMapTwo.on('drag', function () {
+        myMapTwo.panInsideBounds(bounds, { animate: false });
     });
 
     // Create legend of map
@@ -154,13 +154,13 @@ function createMap(earthquakes, tectonic_plates) {
         return div;
     };
 
-    legend.addTo(myMap);
+    legend.addTo(myMapTwo);
 
     // Create a layer control
     // Pass in our baseMaps and overlayMaps
     // Add the layer control to the map
     L.control.layers(baseMaps, overlayMaps, {
         collapsed: false
-    }).addTo(myMap);
+    }).addTo(myMapTwo);
 };
 
