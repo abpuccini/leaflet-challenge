@@ -4,7 +4,7 @@
 
 ## Background
 
-The United States Geological Survey, USGS, is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
+The United States Geological Survey, USGS, is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 ## Library
 
@@ -23,13 +23,13 @@ The United States Geological Survey, USGS, is interested in building a new set o
 
 **[View Script](Leaflet-Step-1/static/js/logic.js)**
 
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Retriving earthquake data in the past 7 days from USGS and using the Leaflet Javascript to create the visualization of the map based on the dataset.
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Retrieving earthquake data in the past 7 days from USGS and using the Leaflet Javascript to create the visualization of the map based on the dataset.
 
 - Markers reflect the magnitude of the earthquakes both size and color (higher magnitude > bigger marker and darker color).
 
 - Popup of each earthquake contain information about place, time and magnitude.
 
-- Legend on the bottom-right of the map that will provide context the map data.
+- Legend on the bottom-right of the map that will provide context for the map data.
 
 <p align="center">
   <img src="Images/leaflet_01.png">
@@ -39,7 +39,7 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 **[View Script](Leaflet-Step-2/static/js/logic.js)**
 
-Ploting a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
+Plotting a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
 
 - Three base maps; Satellite, Greyscale and Outdoors.
 
