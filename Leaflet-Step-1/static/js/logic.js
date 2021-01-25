@@ -78,8 +78,8 @@ function createMap(earthquakes) {
 
     // Set bound to unable to drag to map over left or right
     // https://stackoverflow.com/questions/22155017/can-i-prevent-panning-leaflet-map-out-of-the-worlds-edge/31529463#31529463
-    var southWest = L.latLng(-90, -180),
-        northEast = L.latLng(90, 180);
+    var southWest = L.latLng(-90, -200),
+        northEast = L.latLng(90, 200);
     var bounds = L.latLngBounds(southWest, northEast);
 
     myMap.setMaxBounds(bounds);
